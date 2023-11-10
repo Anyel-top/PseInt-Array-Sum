@@ -26,4 +26,15 @@ Algoritmo ContarParesImpares
     Escribir "Cantidad de números impares: ", impares
     Escribir "Suma de números pares: ", sumaPares
     Escribir"Suma de números impares: ", sumaImpares
+    Escribir"Suma de números impares: ", sumaImpares
+	mediaPares <- sumaImpares / pares
+	
+	Escribir "Media Aritmetica: "
+	Si mediaPares = 0 Entonces
+		mensaje = "Es indeterminado"
+		Escribir mensaje
+		mediaPares = mediaPares
+		Sino 
+	FinSi
+
 FinAlgoritmo
